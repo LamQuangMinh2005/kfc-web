@@ -4,3 +4,113 @@
   --background-button: #ccc;
   --font: #fff;
 }
+
+
+/* Footer */
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 40px 60px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #888;
+  padding-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1 1 180px;
+  margin: 10px 20px;
+}
+
+.footer-column h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.app-links img {
+  width: 100px;
+  margin-right: 10px;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #aaa;
+  border-bottom: 1px solid #888;
+}
+
+.social-icons span {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer-company {
+  padding-top: 20px;
+  color: #ccc;
+}
+
+.footer-company h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-company p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.gov-logo {
+  margin-top: 10px;
+  width: 120px;
+}
+
+.image{
+  width: 278px;
+  height: 414px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+  border-radius: 5px
+}
+
+.image img {
+  width: 100%;
+}
+
+p,h4 {
+  margin: 0;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex:1
+}
